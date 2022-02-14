@@ -22,7 +22,7 @@ def SEARCHING_ALGORITHM():
         MID = int((LOWERPART + UPPERPART)) / 2
         MID = round(MID)
         if NUMS[MID] == VALUE:
-            print(f'Found At Array Index{MID} With {COUNT} Attempts')
+            print(f'Found At Array Index {MID)
             FOUND = True
 
         if NUMS[MID] > VALUE:
